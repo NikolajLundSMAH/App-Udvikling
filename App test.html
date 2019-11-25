@@ -1,0 +1,32 @@
+<html>
+<head>
+<title>Magic 69 Ball</title>
+<meta charset="UTF-8">
+<style>
+
+    body {background-color: black; padding:0 ; margin: 0%;}
+    container {width: 425px;position: relative;margin:20vh auto}
+    h1{text-align:center; color:white}
+
+    p{font-size: 16px; color:blanchedalmond}
+    </Style>
+    
+</style>
+</head>
+<body>
+<div class="container">
+<h1> Ask a question..</h1>
+<textarea placeholder=""></textarea>
+<button onclick="answer()">ASK mig din forpulede so!!!"</button>
+<p Id="answer"></p>
+</div>
+</body>
+<script>
+        var answers = ["Måske du skulle tabe dig lidt","En Silver er bedre end dig i CS","Du er dum","Ih hvor jeg glæder mig!","Hæng dig selv","Jeg Elsker Kage"];
+    function answer(){
+    var random=answers[Math.floor(Math.random() * answers.length)];
+    document.getElementById("answer").innerHTML= random;};
+    </script>
+</html>
+
+
